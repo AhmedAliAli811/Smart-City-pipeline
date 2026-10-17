@@ -1,19 +1,52 @@
+
 # Python
 __pycache__/
 *.py[cod]
+*.pyd
 .venv/
 venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.aws/
+*credentials*
+*secret*
+*access_key*
+
+# AWS configuration containing credentials
+jobs/config.py
+config.py
 
 # Spark
 spark-warehouse/
 metastore_db/
+.checkpoint/
+checkpoints/
 
-# IDE
-.vscode/
+# Generated data
+*.parquet
+*.csv
+*.json
+*.jsonl
 
 # Logs
 *.log
+logs/
+
+# IDE
+.vscode/
+.idea/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Generated dependency cache
+ivy-cache/

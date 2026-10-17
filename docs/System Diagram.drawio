@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="RWtq_5fYT5R0wL_qT2iJ">
-    <mxGraphModel dx="1762" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1675" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,13 +115,13 @@
           <mxGeometry relative="1" x="-0.0002" as="geometry" />
         </mxCell>
         <mxCell id="MtRzdH8rAKnOkoJ467hb-40" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.datazone_business_data_catalog;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Catalog&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="78" width="71" x="1030" y="230" as="geometry" />
+          <mxGeometry height="78" width="71" x="1067" y="190" as="geometry" />
         </mxCell>
         <mxCell id="MtRzdH8rAKnOkoJ467hb-57" edge="1" parent="1" source="MtRzdH8rAKnOkoJ467hb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;strokeWidth=3;" target="MtRzdH8rAKnOkoJ467hb-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MtRzdH8rAKnOkoJ467hb-47" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glue_crawlers;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Crawler&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="78" width="78" x="1060" y="368" as="geometry" />
+          <mxGeometry height="78" width="78" x="1063.5" y="356" as="geometry" />
         </mxCell>
         <mxCell id="MtRzdH8rAKnOkoJ467hb-53" edge="1" parent="1" source="MtRzdH8rAKnOkoJ467hb-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;curveGeometry=1;strokeWidth=3;" target="MtRzdH8rAKnOkoJ467hb-47">
           <mxGeometry relative="1" as="geometry" />
@@ -141,17 +141,13 @@
         <mxCell id="MtRzdH8rAKnOkoJ467hb-58" edge="1" parent="1" source="MtRzdH8rAKnOkoJ467hb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;curved=1;curveGeometry=1;strokeWidth=3;" target="MtRzdH8rAKnOkoJ467hb-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MtRzdH8rAKnOkoJ467hb-67" edge="1" parent="1" source="MtRzdH8rAKnOkoJ467hb-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;curveGeometry=1;strokeWidth=3;" target="MtRzdH8rAKnOkoJ467hb-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MtRzdH8rAKnOkoJ467hb-59" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.redshift;fillColor=#2E73B8;gradientColor=none;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Amazon RedShift&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="75" width="67.5" x="1360" y="286" as="geometry" />
+        <mxCell id="MtRzdH8rAKnOkoJ467hb-67" edge="1" parent="1" source="MtRzdH8rAKnOkoJ467hb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;curveGeometry=1;strokeWidth=3;" target="MtRzdH8rAKnOkoJ467hb-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1427.5" y="325.75" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MtRzdH8rAKnOkoJ467hb-60" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.athena;fillColor=#F58534;gradientColor=none;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Amazon Athena&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="76.5" width="76.5" x="1290" y="446" as="geometry" />
-        </mxCell>
-        <mxCell id="MtRzdH8rAKnOkoJ467hb-61" edge="1" parent="1" source="MtRzdH8rAKnOkoJ467hb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;curveGeometry=1;strokeWidth=3;" target="MtRzdH8rAKnOkoJ467hb-59">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="76.5" width="76.5" x="1340" y="270.5" as="geometry" />
         </mxCell>
         <mxCell id="MtRzdH8rAKnOkoJ467hb-66" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;points=[[0.777,0,0],[0.5,1,0],[0.038,0.5,0],[1,0.5,0],[0.993,0.018,0],[0.993,0.982,0],[0.007,0.982,0]];" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Power Bi&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="100" width="75" x="1540.99" y="291" as="geometry" />

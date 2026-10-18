@@ -8,7 +8,6 @@ The goal is to collect data from different sources, store it in a queryable form
 
 ![System Architecture](docs/System%20Diagram.jpg)
 
-**Architecture diagram:** [View the architecture diagram(ADD_ARCHITECTURE_LINK_HERE)
 
 ## Dashboard
 
